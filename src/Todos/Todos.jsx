@@ -13,7 +13,7 @@ function Todos(props) {
             <li
               key={todo.id}
               className={
-                todo.completed ? `${style.completed}` : `${style.uncomplated}`
+                todo.completed ? `${style.completed}` : ``
               }
             >
               {todo.text}
